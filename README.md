@@ -21,9 +21,8 @@ Los semáforos pueden ser binarios o contadores. Los semáforos binarios tienen 
 Cuando un proceso o hilo necesita acceder a un recurso compartido, primero comprueba el estado del semáforo. Si el semáforo está en un estado libre, el proceso o hilo lo establece en ocupado y accede al recurso. Si el semáforo ya está ocupado, el proceso o hilo se bloquea y espera hasta que el semáforo se libere.
 
 Los semáforos se utilizan comúnmente en sistemas operativos para evitar problemas de concurrencia, como las condiciones de carrera, donde dos o más procesos o hilos intentan acceder al mismo recurso al mismo tiempo y producen resultados impredecibles. Con el uso adecuado de semáforos, los procesos y los hilos pueden compartir recursos de manera segura y eficiente.
-___
 
-#####S 1.1 El problema de la concurrencia de los semáforos en los sistemas
+##### 1.1 El problema de la concurrencia de los semáforos en los sistemas
 
 En los sistemas operativos, los semáforos son una herramienta esencial para la sincronización y la exclusión mutua de recursos compartidos entre procesos o hilos. Sin embargo, también pueden surgir problemas de concurrencia cuando se utilizan incorrectamente.
 
