@@ -26,14 +26,14 @@ Los semáforos se utilizan comúnmente en sistemas operativos para evitar proble
 
 En los sistemas operativos, los semáforos son una herramienta esencial para la sincronización y la exclusión mutua de recursos compartidos entre procesos o hilos. Sin embargo, también pueden surgir problemas de concurrencia cuando se utilizan incorrectamente.
 
-##### _1.2 ¿Qué es el problema de la concurrencia?_:
+##### _1.2 ¿Qué es el problema de la concurrencia?_
 
 El problema de la concurrencia se refiere a la situación en la que varios procesos o hilos intentan acceder a un recurso compartido al mismo tiempo y compiten por el acceso al mismo. Si no se maneja correctamente, esto puede dar lugar a errores y condiciones de carrera.
 
 Por ejemplo, si dos procesos intentan escribir en un archivo al mismo tiempo, podrían producirse errores de escritura y la información del archivo podría corromperse. O si varios hilos intentan acceder a una variable compartida sin sincronización adecuada, podrían ocurrir inconsistencias y errores en los datos.
 ___
 
-### 2. ¿En qué consisten los semáforos binarios y enteros?:
+### 2. ¿En qué consisten los semáforos binarios y enteros?
 
 Los semáforos binarios son aquellos que sólo tienen dos valores posibles: 0 y 1. Un semáforo binario se utiliza para asegurar la exclusión mutua entre procesos o hilos que compiten por un recurso compartido. Por lo tanto, un semáforo binario puede estar en dos estados posibles: ocupado (1) o libre (0). Cuando un proceso o hilo quiere acceder a un recurso compartido, primero comprueba el estado del semáforo. Si está libre (0), establece el semáforo en ocupado (1) y accede al recurso. Si el semáforo ya está ocupado (1), el proceso o hilo se bloquea hasta que el semáforo se libere.
 
