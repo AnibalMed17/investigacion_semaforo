@@ -1,6 +1,6 @@
 ___
 ## <center> Compositores: </center>
-**<center>Neifi Anibal Medina 2021-0959</center>**
+**<center>Neifi Anibal Medina Hernandez 2021-0959</center>**
 
 **<center>Carlos Alberto Reynoso Cruz 2021-1188</center>**
 
