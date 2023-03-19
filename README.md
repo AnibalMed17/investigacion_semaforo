@@ -1,5 +1,4 @@
-# investigacion_semaforo
-Investigación: Problema de la concurrencia: Semáforos
+___
 ## <center> Compositores: </center>
 **<center>Neifi Anibal Medina 2021-0959</center>**
 
